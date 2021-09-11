@@ -15,7 +15,7 @@ docker run -it --name erlang -v /path/to/app:/home/erlang/app dylanops/erlang
 
 Learn more about the DylanOps tagging policy and the difference between rolling tags and immutable tags [in our documentation page](https://jundat95.com/).
 
-* [`22.3.4.21-slim`, `22.3.4.21-rebar3` (22/slim/Dockerfile)](https://github.com/dylanngo95/docker-erlang/22/slim/Dockerfile)
+* [`22.3.4.21-slim`, `22.3.4.21-rebar3` (22/slim/Dockerfile)](https://github.com/dylanngo95/docker-erlang/blob/master/22/slim/Dockerfile)
 
 
 # Get this image
