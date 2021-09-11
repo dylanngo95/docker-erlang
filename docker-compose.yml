@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  erlang:
+    build: './22/slim'
+    image: dylanops/erlang:22
+    container_name: erlang
+    volumes:
+      - ${PROJECT_PATH}:/home/erlang/app
+      - ~/.cache/rebar3:/home/erlang/.cache/rebar3
+    ports:
+      - "8080:8080"
+    tty: true
